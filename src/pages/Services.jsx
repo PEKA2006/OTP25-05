@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Modal, Button, Container, Row, Col, Image } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './Services.css';  // Make sure this path is correct
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const serviceData = [
   {
